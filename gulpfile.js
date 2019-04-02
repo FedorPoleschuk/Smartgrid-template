@@ -19,7 +19,7 @@ gulp.task('serve', function() {
 });
 
 gulp.task('sass', function () {
-  return gulp.src('./src/scss/base.scss')
+  return gulp.src('./src/assets/base.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gcmq())
     .pipe(autoprefixer({
