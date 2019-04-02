@@ -1,0 +1,14 @@
+body{
+    background: #fa5;
+    display: flex;
+}
+
+@media all and (color) { body{
+    background: #fd4;
+  } }
+  @media all and (color) {  body{
+    background-color: #fff;
+
+  }
+    
+   }

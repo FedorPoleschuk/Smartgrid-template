@@ -1,0 +1,25 @@
+{
+  "name": "project-two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.11.0",
+    "smart-grid": "^2.1.2"
+  },
+  "dependencies": {},
+  "description": ""
+}

@@ -1,0 +1,16 @@
+body{
+    background: #fd5;
+    display: flex;
+}
+h1{
+    color: black;
+}
+@media all and (color) { body{
+    background: #fd4;
+  } }
+  @media all and (color) {  body{
+    background-color: #fff;
+
+  }
+    
+   }

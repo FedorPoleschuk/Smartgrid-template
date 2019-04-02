@@ -1,0 +1,17 @@
+@import "./smart-grid";
+@include reset();
+
+.wrapper{
+    @include wrapper();
+    @include row-flex();
+    @include md(justify-content, center);
+    background-color: black;
+
+    .item{
+        background-color: aqua;
+        @include col();
+        @include size(3);
+        @include size-md(5);
+        @include size-xs(12);
+    }
+}
